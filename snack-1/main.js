@@ -2,8 +2,8 @@
 Il software stampa il maggiore. */
 
 
-const first_number = prompt("inserisci due numeri diversi: qui il primo")
-const second_number = prompt("inserisci due numeri diversi: qui il secondo")
+const first_number = Number(prompt("inserisci due numeri diversi: qui il primo"))
+const second_number = Number(prompt("inserisci due numeri diversi: qui il secondo"))
 
 if (first_number > second_number) {
     console.log(first_number);
