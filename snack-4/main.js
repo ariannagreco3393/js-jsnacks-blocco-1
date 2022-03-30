@@ -7,12 +7,12 @@ let invitati = ['invitato1', 'invitato2', 'invitato3'];
 
 let userName = prompt("dimmi il tuo nome")
 
-let boolean = false
+let canAccess = false
 
 for (let index = 0; index < invitati.length; index++) {
     const invitato = invitati[index];
     if (userName == invitato) {
-        boolean = true
+        canAccess = true
     }    
 }
 
