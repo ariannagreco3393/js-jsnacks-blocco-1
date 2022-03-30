@@ -2,6 +2,13 @@
 dove N è un numero indicato dall’utente. */
 
 //utente indica un numero N
-let NumeroN = Number(prompt("scrivi un numero"));
+let UserNumber = Number(prompt("scrivi un numero"));
+
+for (let index = 1; index <= UserNumber; index++) {
+    const cuboUtente = (Math.pow(index, 3)); 
+    console.log(cuboUtente)
+}
+
+
+
 //stampo numero N al cubo
-console.log(Math.pow(NumeroN, 3));
