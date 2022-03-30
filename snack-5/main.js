@@ -9,7 +9,7 @@ const contenitoreDispari = [];
 
 //con il ciclo for chiedo all'utente 6 volte di inserire un numero dispari
 for (let index = 0; index < 6; index++) {
-    let userNumber = Number(prompt('inserisci un numero dispari'));
+    let userNumber = parseInt(prompt('inserisci un numero dispari'));
 // con la condizione if verifico se i numeri inseriti dall'utente sono dispari
     if (userNumber % 2 != 0) {
         //se sono dispari li aggiungo all'Array
